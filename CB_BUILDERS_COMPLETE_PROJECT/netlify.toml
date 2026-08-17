@@ -1,0 +1,10 @@
+# Netlify Configuration for CB BUILDERS
+[build]
+  publish = "."
+  command = ""
+
+# Standard redirect to serve index.html for all paths
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
