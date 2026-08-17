@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Architectural Symbol -->
+  <g transform="translate(10, 15)">
+    <!-- Base structural frame / foundation line -->
+    <rect x="10" y="80" width="70" height="4" rx="2" fill="#d97706" />
+    
+    <!-- Outer Arch / Roof structure -->
+    <path d="M 15,80 L 45,15 L 75,80" fill="none" stroke="url(#brandGrad)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Inner Geometric Pillar / Beam -->
+    <path d="M 33,80 L 45,35 L 57,80" fill="none" stroke="url(#accentGrad)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Drafting crossbeam -->
+    <line x1="24" y1="60" x2="66" y2="60" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Apex Accent Square -->
+    <rect x="42" y="8" width="6" height="6" fill="#d97706" transform="rotate(45 45 11)" />
+  </g>
+
+  <!-- Brand Typography -->
+  <g transform="translate(105, 0)">
+    <!-- CB BUILDERS Title -->
+    <text x="0" y="58" font-family="'Playfair Display', 'Cinzel', 'Georgia', serif" font-size="40" font-weight="800" fill="#1e293b" letter-spacing="1">CB BUILDERS</text>
+    
+    <!-- Tagline Divider -->
+    <line x1="2" y1="72" x2="360" y2="72" stroke="#e2e8f0" stroke-width="1.5" />
+    <line x1="2" y1="72" x2="80" y2="72" stroke="#d97706" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- Subtitle Tagline -->
+    <text x="3" y="94" font-family="'Inter', -apple-system, sans-serif" font-size="14" font-weight="600" fill="#b45309" letter-spacing="4.5">ARCHITECTURE &amp; CONSTRUCTION</text>
+  </g>
+</svg>

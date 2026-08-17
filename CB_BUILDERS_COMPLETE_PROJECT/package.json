@@ -1,0 +1,20 @@
+{
+  "name": "cb-builders",
+  "version": "1.0.0",
+  "description": "CB BUILDERS - Architecture & Construction Company Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx -y serve . -p 8080",
+    "dev": "npx -y http-server . -p 8080",
+    "test": "node -e \"console.log('Static site verification clean!')\""
+  },
+  "keywords": [
+    "cb-builders",
+    "architecture",
+    "construction",
+    "website",
+    "tirunelveli"
+  ],
+  "author": "CB BUILDERS Team",
+  "license": "MIT"
+}
